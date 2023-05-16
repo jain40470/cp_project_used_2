@@ -3,7 +3,7 @@ import axios from "axios";
 
 import { ladders } from "./data";
 
-const LadderA= () => {
+const LadderA = () => {
   const [username, setUsername] = useState("Mike Mark... Thank U for CF");
   const [details, setDetails] = useState();
   const [division, setDivision] = useState(ladders.div_a);
